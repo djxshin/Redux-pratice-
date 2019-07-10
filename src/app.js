@@ -10,8 +10,7 @@ const AppMain = () => {
     return(
 
         <Provider store={createStore(reducers)}>
-           <View>
-
+           <View style={{height: 1000}}>
                 <Header headerText="Tech Stack"/>
                 <LibraryList/>
            </View>
